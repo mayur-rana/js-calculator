@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+}
+
+.calculator{
+    background-color: #666;
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 100px auto;
+    box-shadow: inset -1px -1px 4px 4px #444;
+    
+}
+
+#display{
+    margin-bottom: 40px;
+    height: 40px;
+    width: 85%;
+    border-radius: 5px;
+    background-color: rgb(201, 221, 201);
+    text-align: right;
+    box-shadow: inset 0px -2px 3px;
+    font-size: 30px;
+}
+
+.numberButton{
+    width: 45px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background-color: #999;
+    box-shadow: inset -1px -1px 1px 1px;
+    
+}
+
+.opButton{
+    width: 45px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background-color: #999;
+    box-shadow: inset -1px -1px 1px 1px;
+    
+}
+
+.clr{
+    width: 45px;
+    height: 35px;
+    margin: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background-color: orangered;
+    font-size: 20px;
+
+}
+
+.eql{
+    width: 105px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background-color: #999;
+    box-shadow: inset -1px -1px 1px 1px;
+}
+
+.sqButton{
+    width: 45px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    background-color: #999;
+    box-shadow: inset -1px -1px 1px 1px;
+}
