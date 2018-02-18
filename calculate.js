@@ -43,9 +43,14 @@ function doClear(e) {
     result = [];
     temp = '';
     document.getElementById("display").value = "0";
+    console.log(result);
+    console.log("AC! you hit the AC Button");
   }else {
     temp = '';
     document.getElementById("display").value = "0";
+    console.log(result);
+    console.log(temp);
+    console.log("You hit C");
   }
 }
 
@@ -71,11 +76,16 @@ function doEquals(e) {
 
   var ans = eval(eqn);
   document.getElementById("display").value = ans;
+  result = [];
+  //temp = "";
+  temp = ans;
 }
 
 function doSqrt(e) {
   var val = parseInt(temp);
   var ansSqrt = Math.sqrt(val);
   document.getElementById("display").value = ansSqrt;
+  result = [];
+  temp = ansSqrt;
 }
 
