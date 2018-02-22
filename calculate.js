@@ -39,13 +39,13 @@ function dispNum(e) {
 
 function doClear(e) {
   var clrCall = e.target.value;
-  if (clrCall = "AC") {
+  if (clrCall == "AC") {
     result = [];
     temp = '';
     document.getElementById("display").value = "0";
     console.log(result);
     console.log("AC! you hit the AC Button");
-  }else {
+  }else if(clrCall == "C") {
     temp = '';
     document.getElementById("display").value = "0";
     console.log(result);
